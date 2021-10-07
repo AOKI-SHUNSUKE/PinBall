@@ -48,7 +48,11 @@ public class ScoreCount : MonoBehaviour
             this.hit += 2;
 
         }
-        else if (tag == "SmallCloudTag" || tag == "LargeCloudTag")
+        else if (tag == "LargeCloudTag")
+        {
+            this.hit += 4;
+        }
+        else if (tag == "SmallCloudTag")
         {
             this.hit += 3;
         }
